@@ -1,4 +1,4 @@
-package com.study.kotlin.session3.sub
+package com.study.kotlin.session3.some_package
 
 class SampleFileConfigFour {
 }
