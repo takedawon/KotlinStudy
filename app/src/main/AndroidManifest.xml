@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".session4.SampleConstActivity">
+        </activity>
         <activity android:name=".session4.SampleNullActivity">
         </activity>
         <activity android:name=".session4.SampleVar2Activity">
