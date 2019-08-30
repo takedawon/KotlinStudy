@@ -18,7 +18,7 @@ class SampleAny2Activity : AppCompatActivity() {
     val myIntt2:Int? = myIntt1
 
     val myIntt3:Int? = 10
-    //val myIntt4:Int = myIntt3 14번줄과 마찬가지로 Int타입에 Int? 프로퍼티를 대입할 수 없다.
+    //val myIntt4:Int = myIntt3 14번줄과 마찬가지로 Int타입에 Int? 프로퍼티를 대입할 수 없다.ㅣ
     val myIntt5:Int = myIntt3 as Int
 
     override fun onCreate(savedInstanceState: Bundle?) {
