@@ -47,6 +47,8 @@ class SampleArrayActivity : AppCompatActivity() {
         emptyArray[0] = "hello"
         emptyArray[1] = "world"
         emptyArray[2] = "kkang"
+
+
     }
     fun pr(msg:Any) {
         Log.e("test1", msg.toString())
