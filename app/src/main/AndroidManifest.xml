@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.study.kotlin">
+        package="com.study.kotlin">
 
     <application
             android:allowBackup="true"
@@ -9,45 +9,31 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".session5.SampleIsActivity">
-        </activity>
-        <activity android:name=".session5.SampleUnitNothingActivity">
-        </activity>
-        <activity android:name=".session5.SampleAny2Activity">
-        </activity>
-        <activity android:name=".session5.SampleNull2Activity">
-        </activity>
-        <activity android:name=".session5.SampleAnyActivity">
+        <activity android:name=".session5.SampleArrayActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".session5.SampleCharActivity"/>
-        <activity android:name=".session5.SampleNumberActivity">
-        </activity>
-        <activity android:name=".session4.SampleTailrecActivity">
-        </activity>
-        <activity android:name=".session4.SampleVarargActivity">
-        </activity>
-        <activity android:name=".session4.SampleInfixActivity">
-        </activity>
-        <activity android:name=".session4.SampleArgumentActivity">
-        </activity>
-        <activity android:name=".session4.SampleOverloadingActivity">
-        </activity>
-        <activity android:name=".session4.SampleFuncActivity">
-        </activity>
-        <activity android:name=".session4.SampleConstActivity">
-        </activity>
-        <activity android:name=".session4.SampleNullActivity">
-        </activity>
-        <activity android:name=".session4.SampleVar2Activity">
-        </activity>
-        <activity android:name=".session4.SampleValActivity">
-        </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".session5.SampleIsActivity"></activity>
+        <activity android:name=".session5.SampleUnitNothingActivity"></activity>
+        <activity android:name=".session5.SampleAny2Activity"></activity>
+        <activity android:name=".session5.SampleNull2Activity"></activity>
+        <activity android:name=".session5.SampleAnyActivity"/>
+        <activity android:name=".session5.SampleCharActivity" />
+        <activity android:name=".session5.SampleNumberActivity"></activity>
+        <activity android:name=".session4.SampleTailrecActivity"></activity>
+        <activity android:name=".session4.SampleVarargActivity"></activity>
+        <activity android:name=".session4.SampleInfixActivity"></activity>
+        <activity android:name=".session4.SampleArgumentActivity"></activity>
+        <activity android:name=".session4.SampleOverloadingActivity"></activity>
+        <activity android:name=".session4.SampleFuncActivity"></activity>
+        <activity android:name=".session4.SampleConstActivity"></activity>
+        <activity android:name=".session4.SampleNullActivity"></activity>
+        <activity android:name=".session4.SampleVar2Activity"></activity>
+        <activity android:name=".session4.SampleValActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
