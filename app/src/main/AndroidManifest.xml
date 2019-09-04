@@ -9,7 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".session5.SampleListSetMapActivity"></activity>
+        <activity android:name=".session5.SampleIteratorActivity"></activity>
+        <activity android:name=".session5.SampleListSetMapActivity" />
         <activity android:name=".session5.SampleArrayActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
