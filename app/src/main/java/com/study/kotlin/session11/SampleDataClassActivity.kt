@@ -19,14 +19,24 @@ class Person(val name:String, var age:Int)
 
 // equals() 는 객체의 데이터가 같은지를 비교할 때 사용.
 
-class SampleDataClassActivity() {
-    val user = User("lanic", 25)
-    val user2 = User("lanic", 25)
+class SampleDataClassActivity {
+    constructor() {
+        val user = User("lanic", 25)
+        val user2 = User("lanic", 25)
+        val person = Person("haha", 20)
+        val person2 = Person("haha", 20)
 
+        dataPrint(user, user2) // true
+        dataPrint(person,person2) // false
 
-    fun dataPrint() {
-        print(user.equals(user2))
+        //원래 class의 equals() 함수 같은 경우는 객체를 비교하지만,
+        //data class의 equals() 는 객체의 데이터를 비교한다.
+        //주 생성자의 매개변수가 아닐 경우 값을 비교하지 않는다.
     }
 
+    fun dataPrint(data:Any, data2:Any) {
+        print(data.equals(data2))
+    }
+    // class
 
 }

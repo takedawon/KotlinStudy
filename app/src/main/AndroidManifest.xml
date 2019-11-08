@@ -9,7 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".session6.SampleMatchActivity"></activity>
+        <activity android:name=".session11.SampleDataClaseFunActivity"></activity>
+        <activity android:name=".session6.SampleMatchActivity" />
         <activity android:name=".session6.SampleLogicalActivity" />
         <activity android:name=".session6.SampleDeploymentActivity" />
         <activity android:name=".session6.SampleArithmeticActivity" />
