@@ -9,7 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".session11.SampleDataClaseFunActivity"></activity>
+        <activity android:name=".session11.SampleEnumFirstActivity"></activity>
+        <activity android:name=".session11.SampleEnumActivity" />
+        <activity android:name=".session11.SampleDataClaseFunActivity" />
         <activity android:name=".session6.SampleMatchActivity" />
         <activity android:name=".session6.SampleLogicalActivity" />
         <activity android:name=".session6.SampleDeploymentActivity" />
