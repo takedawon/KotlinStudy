@@ -31,6 +31,8 @@ class SampleEnumFirstActivity : AppCompatActivity() {
         direction5.no = 10
 
         print("no:${direction5.no}, ${direction5.str}")
+
+        val test:Shape = Triangle(10,10)
     }
 }
 

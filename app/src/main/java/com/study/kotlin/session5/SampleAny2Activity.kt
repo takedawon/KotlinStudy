@@ -3,6 +3,8 @@ package com.study.kotlin.session5
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.study.kotlin.R
+import com.study.kotlin.session11.Shape
+import com.study.kotlin.session11.Triangle
 import com.study.kotlin.session4.myVal
 
 class SampleAny2Activity : AppCompatActivity() {
@@ -24,5 +26,9 @@ class SampleAny2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sample_any2)
+        val test2: Shape = Shape.Circle(10.0)
     }
+
 }
+
+//class SealedTest:Shape() 다른 클래스에서 Sealed Class 선언시 오류발생
