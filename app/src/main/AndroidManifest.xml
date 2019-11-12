@@ -9,7 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".session11.SampleCompanionActivity"></activity>
+        <activity android:name=".session11.SampleFunctionalActivity"></activity>
+        <activity android:name=".session11.SampleCompanionActivity" />
         <activity android:name=".session11.SampleObject3Activity" />
         <activity android:name=".session11.SampleObject2Activity" />
         <activity android:name=".session11.SampleObjectActivity" />
